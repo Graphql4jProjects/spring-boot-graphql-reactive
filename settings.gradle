@@ -1,0 +1,7 @@
+rootProject.name = 'spring-boot-graphql-reactive'
+include ':spring-boot-autoconfigure-graphql-reactive'
+include ':spring-boot-starter-graphql-reactive'
+include ':graphql4j'
+project(':graphql4j').projectDir = file('../graphql4j')
+include ':spring-graphql-reactive'
+project(':spring-graphql-reactive').projectDir = file('../spring-graphql-reactive')
